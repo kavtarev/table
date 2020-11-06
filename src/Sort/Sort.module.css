@@ -1,0 +1,36 @@
+.sort__body {
+  display: flex;
+}
+.sort__item {
+  padding: 5px 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.sort__item:hover > div {
+  display: block;
+}
+.sort__list {
+  display: none;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 5px 0px;
+}
+.sort__type:hover {
+  background-color: rgba(232, 233, 227, 0.623);
+}
+.sort__list > div {
+  border-bottom: 1px royalblue;
+}
+select {
+  margin: 0;
+  height: 50px;
+  padding: 10px;
+}
+input {
+  height: 50px;
+
+  font-weight: 400;
+}
+.filter__wrapper {
+  margin-top: 10px;
+}

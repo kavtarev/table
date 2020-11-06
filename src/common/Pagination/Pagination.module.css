@@ -1,0 +1,13 @@
+span {
+  padding: 5px 10px;
+  margin-right: 2px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+span:hover {
+  border: 1px solid royalblue;
+}
+.active {
+  font-weight: bold;
+  background-color: royalblue;
+}
